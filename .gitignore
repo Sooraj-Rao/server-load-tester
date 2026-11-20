@@ -1,0 +1,20 @@
+
+# Build files
+build/
+cmake-build-*/
+
+# Executables and object files
+*.exe
+*.o
+*.obj
+*.dll
+*.a
+
+# Generated reports
+loadforge_report.csv
+loadforge_report.html
+loadforge_history.json
+
+# IDE files
+.vscode/
+.idea/

@@ -1,0 +1,14 @@
+
+{
+  "endpoints": [
+    "https://httpbin.org/get?route=users",
+    "https://httpbin.org/get?route=products",
+    "https://httpbin.org/get?route=orders"
+  ],
+  "method": "GET",
+  "requests": 12,
+  "concurrency": 3,
+  "ramp_up_seconds": 3,
+  "connect_timeout_ms": 5000,
+  "timeout_ms": 10000
+}
